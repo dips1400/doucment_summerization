@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Lato:wght@100;400&family=M+PLUS+Rounded+1c:wght@400;500&family=Mate&family=Poppins:wght@100;400;500;600&family=Rubik&display=swap');
+
+.container{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content{
+    width: 80%;
+    border: 2px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-top: 20px;
+    padding: 2rem;
+}
+
+.header-container{
+    width: 85%;
+    border-radius: 0.9rem;
+    background: linear-gradient(230deg, #700B97 -9.42%, rgba(164, 21, 220, 0.87) -9.41%, rgba(122, 21, 162, 0.9) 16.21%, rgba(106, 21, 139, 0.92) 33.87%, rgba(92, 1, 129, 0.95) 53.24%, #540e70 72.04%, rgb(62, 16, 81) 90.84%);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-container p{
+    font-size: 27px;
+    font-family: 'Duru Sans', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.csv_file{
+    width: 30%;
+}
+
+.question_div{
+    height: auto;
+    background-color: #323133;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    width: 100%;
+    border-radius: 0.7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.question_div input{
+    height: 20px;
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+    border: none;
+    /* background: linear-gradient(230deg, #700B97 -9.42%, rgba(164, 21, 220, 0.87) -9.41%, rgba(122, 21, 162, 0.9) 16.21%, rgba(106, 21, 139, 0.92) 33.87%, rgba(92, 1, 129, 0.95) 53.24%, #540e70 72.04%, rgb(62, 16, 81) 90.84%); */
+    color: #fff;
+    background: #700B97;
+}
+
+.question_div ::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+.question_div button{
+    background-color: #fff;
+    height: 29px;
+    width: 100px;
+    border: none;
+    border-radius: 0.7rem;
+    color: #700B97;
+    cursor: pointer;
+    
+}
+
